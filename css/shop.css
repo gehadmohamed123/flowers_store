@@ -1,0 +1,155 @@
+body{
+    background-color:  #F1F3F4;
+    font-family: 'Alexandria', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 20px 40px;
+    
+}
+nav .logo{
+
+color: #000;
+display: inline;
+text-decoration: none;
+
+}
+
+nav ul{
+    
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+nav ul li a:hover,.active{
+    background:#F1F3F4;
+    color: #E8A9A9;
+}
+.paragraph_1{
+    color: #000;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    margin: 50px;
+    padding: 15px,20px;
+    border-radius: 30%;
+    margin-left: 500px;
+    margin-top: -35px;
+}
+.select{
+    text-align: center;
+    gap: 0 700px;
+    display: flex;
+    margin-left: 270px;
+}
+select{
+    border: 1px solid  #E8A9A9;
+    padding: 5px;
+    height: 50px;
+}
+select:focus{
+    outline: none;
+}
+.select h3{
+    display:inline;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border-color:  #F1F3F4;
+    width: 220px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+.card_img{
+    
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url(2831f5_9a6c3698233048aea57fe86bdbe2e5a1~mv2img1.webp);
+    margin-bottom: 15px;
+}
+.car-2{
+    background-image: url(2831f5_2657d99681d04bc7abf5cc8cfa3b17dc~mv2img2.webp);
+}
+.car-3{
+    background-image: url(css/2831f5_6cc131e829fe4e539dc4515b6cd43871~mv2img3.webp);
+}
+.car-4{
+    background-image: url(2831f5_3c9f89a543424bdf9829d37e86d26ce9~mv2.jpg);
+}
+
+
+
+.page-btn{
+    margin-left: 270px;
+    margin-bottom: 20px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid  #E8A9A9;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: #E8A9A9;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a; 
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+   flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+.row{
+    display: flex;
+    
+}
